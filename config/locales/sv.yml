@@ -35,7 +35,9 @@ sv:
             approve: Godkänn denna kommentar
         posts:
           form:
+            advanced_options: Avancerat
             toggle_advanced_options: Klicka för att ställa in metataggar och menyinställningar
+            save_as_draft: Spara som utkast
             published_at: Publiceringsdatum
             custom_url: Anpassad URL
             custom_url_help: Skapa URL för bloggposten med denna text istället för ttieln
@@ -149,17 +151,17 @@ sv:
           no_blog_articles_posted: 'Det finns inga artiklar för %{date}.'
   activerecord:
     models:
-      refinery/blog/category: Kategori
-      refinery/blog/comment: Kommentarer
-      refinery/blog/post: Bloggposter
+      refinery/blog_category: Kategori
+      refinery/blog_comment: Kommentarer
+      refinery/blog_post: Bloggposter
     attributes:
-      refinery/blog/category:
+      refinery/blog_category:
         title: Titel
-      refinery/blog/comment:
+      refinery/blog_comment:
         name: Namn
         email: E-post
         message: Meddelande
-      refinery/blog/post:
+      refinery/blog_post:
         title: Titel
         body: Innehåll
         teaser: Teaser
